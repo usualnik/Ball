@@ -4,7 +4,7 @@ public class UI_Manager : MonoBehaviour
 {
     [SerializeField] private GameObject _looseScreen;
     [SerializeField] private GameObject _winGameScreen;
-
+   
     private void Start()
     {
         Ball.Instance.OnDestroyBall += Ball_OnDestroyBall;
