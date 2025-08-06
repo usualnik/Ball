@@ -20,11 +20,14 @@ public class UI_Manager : MonoBehaviour
     private void Ball_OnDestroyBall()
     {
         _looseScreen.SetActive(true);
+        AudioManager.Instance.Play("Loose");
     }
 
 
     private void Ball_OnWinGame()
     {
         _winGameScreen.SetActive(true);
+        AudioManager.Instance.Play("Win");
+
     }
 }
