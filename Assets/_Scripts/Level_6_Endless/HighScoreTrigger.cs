@@ -1,7 +1,9 @@
+using System;
 using UnityEngine;
 
 public class HighScoreTrigger : MonoBehaviour
 {
+    public event Action OnPlayerPassHole;
 
     private bool _canAddScore = true;
 
@@ -12,6 +14,8 @@ public class HighScoreTrigger : MonoBehaviour
             HighScoreManager.Instance.UpdateHighScoreText();
 
             _canAddScore = false;
+
+            OnPlayerPassHole?.Invoke();
         }
     }
 }
