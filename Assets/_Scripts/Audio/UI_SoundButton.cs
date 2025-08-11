@@ -24,6 +24,19 @@ public class UI_SoundButton : MonoBehaviour
     {
         _soundButton.onClick.AddListener(ToggleSound);
 
+        if (!AudioManager.Instance.IsPlaying())
+        {
+            _buttonImage.sprite = _soundOffSprite;
+            _isPlaying = false;
+        }
+        else
+        {
+
+            _buttonImage.sprite = _soundOnSprite;
+            _isPlaying = true;
+
+        }
+
     }
 
     private void OnDestroy()
@@ -32,6 +45,7 @@ public class UI_SoundButton : MonoBehaviour
 
     }
 
+    
     private void ToggleSound()
     {
 

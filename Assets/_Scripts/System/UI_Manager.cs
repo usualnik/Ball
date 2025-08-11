@@ -3,18 +3,12 @@ using UnityEngine;
 public class UI_Manager : MonoBehaviour
 {
     [SerializeField] private GameObject _looseScreen;
-    [SerializeField] private GameObject _winGameScreen;
-    [SerializeField] private GameObject _mobileInputScreen;
+    [SerializeField] private GameObject _winGameScreen;    
    
     private void Start()
     {
         Ball.Instance.OnDestroyBall += Ball_OnDestroyBall;
         Ball.Instance.OnWinGame += Ball_OnWinGame;
-
-        if (GameManager.Instance.IsMobilePlatform)
-        {
-            _mobileInputScreen.SetActive(true);
-        }
     }
 
     private void OnDestroy()

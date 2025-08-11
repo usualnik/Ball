@@ -30,9 +30,18 @@ public class GameManager : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        YG2.InterstitialAdvShow();
-
+        
         var nextLevelBuildIndex = SceneManager.GetActiveScene().buildIndex + 1;
-        SceneManager.LoadScene(nextLevelBuildIndex);
+
+
+        if(nextLevelBuildIndex <= SceneManager.sceneCountInBuildSettings)
+        {
+            YG2.InterstitialAdvShow();
+
+            PlayerData.Instance.SetCurrentLevel(nextLevelBuildIndex);
+          
+            SceneManager.LoadScene(nextLevelBuildIndex);
+        }       
+       
     }
 }

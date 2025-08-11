@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using YG;
 
 public class HighScoreManager : MonoBehaviour
 {
@@ -22,12 +23,14 @@ public class HighScoreManager : MonoBehaviour
     }
     private void Start()
     {
-        _highScoreText.text = _score.ToString();
+        _highScoreText.text = PlayerData.Instance.GetHighScore().ToString();
     }
 
     public void UpdateHighScoreText()
     {
         _score++;
+        
+        PlayerData.Instance.SetHighScore(_score);
 
         _highScoreText.text = _score.ToString();
     }

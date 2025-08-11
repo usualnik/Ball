@@ -23,6 +23,20 @@ public class UI_MusicButton : MonoBehaviour
     {
         _musicButton.onClick.AddListener(ToggleSound);
 
+
+        if (!BackgroundMusic.Instance.IsPlaying())
+        {
+            _buttonImage.sprite = _musicOffSprite;
+            _isPlaying = false;
+        }
+        else
+        {
+
+            _buttonImage.sprite = _musicOnSprite;
+            _isPlaying = true;
+
+        }
+
     }
 
     private void OnDestroy()

@@ -49,4 +49,6 @@ public class BackgroundMusic : MonoBehaviour
         _audioSource.Play();
     }
 
+    public bool IsPlaying() => _isPlaying;
+
 }
