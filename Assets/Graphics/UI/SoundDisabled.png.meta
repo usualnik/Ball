@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8f8c3ee2203f48348b5c9f63b2aad502
+guid: 287b04ed364573b4298ae2d22aa8da90
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4451404984602619454
-    second: SidePlatformBGLv1@3x_0
+      213: 8787647028167966990
+    second: SoundDisabled_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SidePlatformBGLv1@3x_0
+      name: SoundDisabled_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 294
-        height: 519
+        x: 7
+        y: 11
+        width: 262
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3e64aabf3196cd30800000000000000
-      internalID: 4451404984602619454
+      spriteID: e010875c96ef3f970800000000000000
+      internalID: 8787647028167966990
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SidePlatformBGLv1@3x_0: 4451404984602619454
+      SoundDisabled_0: 8787647028167966990
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

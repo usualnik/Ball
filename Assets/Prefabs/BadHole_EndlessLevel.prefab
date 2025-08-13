@@ -144,9 +144,21 @@ PrefabInstance:
       value: BadHole_EndlessLevel
       objectReference: {fileID: 0}
     - target: {fileID: 1924880755598876571, guid: b96d585723d87304fb0d4d0109ce4414, type: 3}
+      propertyPath: m_Size.x
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924880755598876571, guid: b96d585723d87304fb0d4d0109ce4414, type: 3}
+      propertyPath: m_Size.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924880755598876571, guid: b96d585723d87304fb0d4d0109ce4414, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 6060524839903453965, guid: 5486718b875bfec4e900aea9263916e0, type: 3}
+      objectReference: {fileID: 4378597864626172254, guid: 5486718b875bfec4e900aea9263916e0, type: 3}
+    - target: {fileID: 1924880755598876571, guid: b96d585723d87304fb0d4d0109ce4414, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

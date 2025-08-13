@@ -3,8 +3,8 @@ guid: d6fbef8e3e84fdf4289e05339477a36b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4337585535815937996
-    second: BPLv4@3x_0
+      213: -7262628929864840330
+    second: BPLv4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BPLv4@3x_0
+      name: BPLv4_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1542
-        height: 126
+        width: 1540
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43091dacfeccdc3c0800000000000000
-      internalID: -4337585535815937996
+      spriteID: 67b4ee3a775f53b90800000000000000
+      internalID: -7262628929864840330
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BPLv4@3x_0: -4337585535815937996
+      BPLv4_0: -7262628929864840330
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

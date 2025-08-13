@@ -44,6 +44,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Shadows
+    uniqueID: 3873205631
+    locked: 0
   - name: Holes
     uniqueID: 3494530177
     locked: 0

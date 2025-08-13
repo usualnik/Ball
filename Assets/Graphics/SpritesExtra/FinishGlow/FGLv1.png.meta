@@ -3,8 +3,8 @@ guid: c11ea9ac0e1dc3745b2115128900e452
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7101565151256625070
-    second: FGLv1@3x_0
+      213: -6783192110873261922
+    second: FGLv1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FGLv1@3x_0
+      name: FGLv1_0
       rect:
         serializedVersion: 2
         x: 29
         y: 29
-        width: 383
-        height: 383
+        width: 382
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2504e02ee1c227d90800000000000000
-      internalID: -7101565151256625070
+      spriteID: e98ca2cc6b24dd1a0800000000000000
+      internalID: -6783192110873261922
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FGLv1@3x_0: -7101565151256625070
+      FGLv1_0: -6783192110873261922
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
