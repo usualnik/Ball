@@ -211,8 +211,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _buttonImage: {fileID: 3545741034668043417}
-  _soundOnSprite: {fileID: 21300000, guid: 682ca7991128ae148abed788b69d2821, type: 3}
-  _soundOffSprite: {fileID: 21300000, guid: 684044a4bfe2cb54f96424d6588193f4, type: 3}
+  _soundOnSprite: {fileID: 1766240493461447514, guid: 52c4512e1d2f4c3469da54a55b7cbf83, type: 3}
+  _soundOffSprite: {fileID: 8787647028167966990, guid: 287b04ed364573b4298ae2d22aa8da90, type: 3}
 --- !u!1 &4410007774008236110
 GameObject:
   m_ObjectHideFlags: 0
