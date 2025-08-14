@@ -103,10 +103,10 @@ TextureImporter:
       name: SoundDisabled_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 8
         y: 11
-        width: 262
-        height: 262
+        width: 261
+        height: 261
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

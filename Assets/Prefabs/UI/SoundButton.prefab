@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5976798928735998080}
   - component: {fileID: 5233330994610653585}
   - component: {fileID: 3545741034668043417}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 170, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5233330994610653585
 CanvasRenderer:
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 682ca7991128ae148abed788b69d2821, type: 3}
+  m_Sprite: {fileID: 1766240493461447514, guid: 52c4512e1d2f4c3469da54a55b7cbf83, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 519436355850196322}
   - component: {fileID: 2358054865404712193}
   - component: {fileID: 4109999439166443568}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: SoundButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,13 +224,13 @@ GameObject:
   - component: {fileID: 9093017931383930823}
   - component: {fileID: 2163259034205118855}
   - component: {fileID: 3145673714711884903}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &9093017931383930823
 RectTransform:
   m_ObjectHideFlags: 0
