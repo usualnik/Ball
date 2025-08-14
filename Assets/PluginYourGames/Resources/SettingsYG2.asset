@@ -24,7 +24,7 @@ MonoBehaviour:
     languages:
       ru: 1
       en: 1
-      tr: 1
+      tr: 0
       az: 0
       be: 0
       he: 0
@@ -390,14 +390,14 @@ MonoBehaviour:
     simulationLoadScene: 0
   Simulation:
     device: 0
-    language: ru
+    language: en
     advIntervalSimulation: 60
     durationAdv: 0.5
     loadAdv: 0
     testFailAds: 0
   Templates:
     logoImageFormat: 0
-    backgroundImgFormat: 0
+    backgroundImgFormat: 3
     gradientBackgroundByLoadGame:
       radial: 0
       angleInclination: 140
@@ -407,16 +407,16 @@ MonoBehaviour:
     progressBarSettigs:
       round: 1
       roundAngle: 10
-      width: 30
+      width: 10
       height: 24
       color1: {r: 0.25, g: 0.6392, b: 1, a: 1}
       color2: {r: 1, g: 0.831, b: 0.149, a: 0.7}
     fixedAspectRatio: 1
     aspectRatio: 9/16
-    disableForMobile: 0
+    disableForMobile: 1
     fillBackground: 1
-    imageBackground: 0
-    imageName: background.jpg
+    imageBackground: 1
+    imageName: yandex.png
     gradientBackgroundByAspectRatio:
       radial: 0
       angleInclination: 140
