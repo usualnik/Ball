@@ -1501,6 +1501,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3232383727777126026, guid: 003490efd7334694aa5c207dbb442495, type: 3}
+      propertyPath: m_Radius
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 3623050847985235049, guid: 003490efd7334694aa5c207dbb442495, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -1672,6 +1676,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: 0}
+  m_PointAction: {fileID: 0}
+  m_MoveAction: {fileID: 0}
+  m_SubmitAction: {fileID: 0}
+  m_CancelAction: {fileID: 0}
+  m_LeftClickAction: {fileID: 0}
+  m_MiddleClickAction: {fileID: 0}
+  m_RightClickAction: {fileID: 0}
+  m_ScrollWheelAction: {fileID: 0}
+  m_TrackedDevicePositionAction: {fileID: 0}
+  m_TrackedDeviceOrientationAction: {fileID: 0}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
 --- !u!114 &258988740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9067,6 +9090,10 @@ PrefabInstance:
     - target: {fileID: 1021122765528298624, guid: f69503cf8675bb6499237f9a3879f7ee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808181924371447495, guid: f69503cf8675bb6499237f9a3879f7ee, type: 3}
+      propertyPath: minOverlap
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4004744617749321500, guid: f69503cf8675bb6499237f9a3879f7ee, type: 3}
       propertyPath: m_Layer
