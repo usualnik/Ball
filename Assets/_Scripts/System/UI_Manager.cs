@@ -36,7 +36,7 @@ public class UI_Manager : MonoBehaviour
     }
 
     private void Ball_OnDestroyBall()
-    {
+    {       
         _looseScreen.SetActive(true);
         AudioManager.Instance.Play("Loose");
     }
@@ -44,6 +44,7 @@ public class UI_Manager : MonoBehaviour
 
     private void Ball_OnWinGame()
     {
+        BackgroundMusic.Instance.SetBackGroundMusic(null);
         _winGameScreen.SetActive(true);
         AudioManager.Instance.Play("Win");
 

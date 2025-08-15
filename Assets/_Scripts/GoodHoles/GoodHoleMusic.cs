@@ -10,7 +10,10 @@ public class GoodHoleMusic : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            BackgroundMusic.Instance.SetBackGroundMusic(_goodHoleMusic);
+            if (gameObject.activeInHierarchy)
+            {
+                BackgroundMusic.Instance.SetBackGroundMusic(_goodHoleMusic);
+            }
         }
     }
 
@@ -18,7 +21,11 @@ public class GoodHoleMusic : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-           StartCoroutine(WaitUntilPlayBackground());
+            if (gameObject.activeInHierarchy)
+            {
+                StartCoroutine(WaitUntilPlayBackground());
+            }
+           
         }
     }
 

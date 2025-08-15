@@ -1812,8 +1812,20 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 927225071704169343, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1052192183022779135, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
       propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1074912859197998406, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
+      propertyPath: m_Mass
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1074912859197998406, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
+      propertyPath: m_AngularDamping
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1192417374112781732, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
@@ -1915,6 +1927,14 @@ PrefabInstance:
     - target: {fileID: 3844617500888959042, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069963076465282231, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
+      propertyPath: m_Mass
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069963076465282231, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
+      propertyPath: m_AngularDamping
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4245834713666337843, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
       propertyPath: m_LocalScale.x
@@ -2436,6 +2456,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _looseScreen: {fileID: 1610789891}
   _winGameScreen: {fileID: 1610789890}
+  _mobileTutorial: {fileID: 0}
+  _pcTutorial: {fileID: 0}
 --- !u!1 &1583974970
 GameObject:
   m_ObjectHideFlags: 0

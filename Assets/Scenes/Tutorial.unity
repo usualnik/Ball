@@ -3232,6 +3232,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 557205802848529077, guid: f69503cf8675bb6499237f9a3879f7ee, type: 3}
+      propertyPath: m_Mass
+      value: 0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 557205802848529077, guid: f69503cf8675bb6499237f9a3879f7ee, type: 3}
+      propertyPath: m_UseAutoMass
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557205802848529077, guid: f69503cf8675bb6499237f9a3879f7ee, type: 3}
+      propertyPath: m_GravityScale
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 970954111433179738, guid: f69503cf8675bb6499237f9a3879f7ee, type: 3}
       propertyPath: m_Name
       value: Ball
@@ -3453,8 +3465,28 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 927225071704169343, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 927225071704169343, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
+      propertyPath: m_LinearDamping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 927225071704169343, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1052192183022779135, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
       propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1074912859197998406, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
+      propertyPath: m_Mass
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1074912859197998406, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
+      propertyPath: m_AngularDamping
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1192417374112781732, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
@@ -3572,6 +3604,14 @@ PrefabInstance:
     - target: {fileID: 3844617500888959042, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069963076465282231, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
+      propertyPath: m_Mass
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069963076465282231, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
+      propertyPath: m_AngularDamping
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4245834713666337843, guid: 98c6c3c740624034587949864a3af3c7, type: 3}
       propertyPath: m_LocalScale.x
